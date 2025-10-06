@@ -29,7 +29,7 @@ A continuación, se presentan tres de mis proyectos más relevantes, donde aplic
 
 ---
 
-### PROYECTO 1 - SISTEMA INTELIGENTE DE SCORING CREDITICIO CON REDES NEURONALES PROFUNDAS (DNN)
+> ### PROYECTO 1 - SISTEMA INTELIGENTE DE SCORING CREDITICIO CON REDES NEURONALES PROFUNDAS (DNN)
 
 ---
 
@@ -82,7 +82,7 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 ---
 
-### PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES  
+> ### PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES  
 ### Con enfoque ético y mitigación de sesgos
 
 ---
@@ -140,7 +140,7 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 
 ---
 
-### PROYECTO 3 - INTERPRETABILIDAD DE MODELOS PREDICTIVOS USANDO LIME Y SHAP
+> ### PROYECTO 3 - INTERPRETABILIDAD DE MODELOS PREDICTIVOS USANDO LIME Y SHAP
 
 ---
 
