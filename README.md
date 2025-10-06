@@ -31,8 +31,6 @@ A continuación, se presentan tres de mis proyectos más relevantes, donde aplic
 
 > ### PROYECTO 1 - SISTEMA INTELIGENTE DE SCORING CREDITICIO CON REDES NEURONALES PROFUNDAS (DNN)
 
----
-
 ### 🎯 Objetivo
 
 Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
