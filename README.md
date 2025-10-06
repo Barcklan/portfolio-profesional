@@ -45,7 +45,6 @@ Esta decisión, si se basa en modelos poco explicables, puede generar sesgos, ex
 Se busca construir un modelo moderno, basado en **redes neuronales profundas**, que sea a la vez **preciso y explicable**, permitiendo a las instituciones mejorar la calidad de sus decisiones crediticias.
 
 ---
-
 ### 📊 Resumen
 
 Se desarrolló un sistema de **scoring crediticio** basado en **redes neuronales profundas (DNN)** para predecir la probabilidad de impago de clientes bancarios.
