@@ -2,6 +2,11 @@
 
 ## 👋 Sobre mí
 
+<img src="https://github.com/barcklan.png" width="120" align="left" style="border-radius:50%; margin-right:20px;">
+
+Soy un profesional apasionado por el análisis de datos, la modelación estadística y el desarrollo de soluciones basadas en *Machine Learning* que contribuyan a la toma de decisiones informadas.
+
+
 **Nombre:** Claudio Díaz Vargas  
 **Especialización:** Ingeniero en Estadística, especializado en Machine Learning y Ciencia de Datos.
 **Correo:** [cdiazv.ies@gmail.com]  
