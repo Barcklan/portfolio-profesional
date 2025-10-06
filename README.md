@@ -2,7 +2,7 @@
 
 ## 👋 Sobre mí
 
-<img src="https://github.com/barcklan.png" width="150" align="left" style="border-radius:80%; margin-right:20px;">
+<img src="https://github.com/barcklan.png" width="150" align="left" style="border-radius:50%; margin-right:20px;">
 
 Soy un profesional apasionado por el análisis de datos, la modelación estadística y el desarrollo de soluciones basadas en *Machine Learning* que contribuyan a la toma de decisiones informadas.
 
