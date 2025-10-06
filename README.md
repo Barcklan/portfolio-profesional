@@ -78,6 +78,8 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 **Claudio Andrés Díaz Vargas**
 
+🔗 [Ver proyecto completo](./proyecto1)
+
 ---
 
 ### PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES  
@@ -134,6 +136,7 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 
 **Claudio Andrés Díaz Vargas**
 
+🔗 [Ver proyecto completo](./proyecto2)
 
 ---
 
@@ -194,6 +197,9 @@ La **interpretabilidad** permite auditar la lógica interna del modelo, identifi
 
 **Claudio Andrés Díaz Vargas**
 
+🔗 [Ver proyecto completo](./proyecto3)
+
+---
 
 ## 🧭 Organización y Buenas Prácticas
 
