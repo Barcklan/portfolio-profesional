@@ -11,7 +11,7 @@ Soy un profesional apasionado por el análisis de datos, la modelación estadís
 
 **Especialización:** Ingeniero en Estadística, especializado en Machine Learning y Ciencia de Datos.
 
-**Correo:** [cdiazv.ies@gmail.com]
+**Correo:** cdiazv.ies@gmail.com
 
 **GitHub:** [https://github.com/tuusuario](https://github.com/tuusuario)
 
