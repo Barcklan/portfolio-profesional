@@ -36,7 +36,6 @@ A continuación, se presentan tres de mis proyectos más relevantes, donde aplic
 Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
 El modelo debe ser explicable, eficiente y presentar resultados interpretables para su uso en contextos financieros.
 
----
 ### 🧠 Contexto
 
 Las entidades financieras deben decidir si otorgan o no un crédito a un cliente.  
@@ -44,7 +43,6 @@ Esta decisión, si se basa en modelos poco explicables, puede generar sesgos, ex
 
 Se busca construir un modelo moderno, basado en **redes neuronales profundas**, que sea a la vez **preciso y explicable**, permitiendo a las instituciones mejorar la calidad de sus decisiones crediticias.
 
----
 ### 📊 Resumen
 
 Se desarrolló un sistema de **scoring crediticio** basado en **redes neuronales profundas (DNN)** para predecir la probabilidad de impago de clientes bancarios.
@@ -57,8 +55,6 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 📈 En conclusión, la **DNN simple** se posiciona como la opción más confiable y efectiva para decisiones de crédito, aunque aún puede mejorarse la predicción de clientes solventes y la interpretabilidad del modelo.
 
----
-
 ### 🧰 Tecnologías Utilizadas
 
 - **Python**
@@ -67,8 +63,6 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 - **Pandas / NumPy**
 - **Matplotlib / Seaborn**
 - **SMOTE (imbalanced-learn)**
-
----
 
 ### ✍️ Autor
 
@@ -81,14 +75,11 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 > ### PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES  
 > ### CON ENFOQUE ÉTICO Y MITIGACIÓN DE SESGOS
 
----
 ### 🎯 Objetivo
 
 Desarrollar un sistema de **procesamiento de lenguaje natural (NLP)** capaz de clasificar textos médicos —como notas clínicas, síntomas o diagnósticos— según su **gravedad clínica (leve, moderado, severo)**.  
 
 El modelo debe integrar **buenas prácticas de preprocesamiento, evaluación y mitigación de sesgos lingüísticos y sociales**, garantizando transparencia y responsabilidad ética en su uso.
-
----
 
 ### 🧠 Contexto
 
@@ -97,8 +88,6 @@ Los registros médicos en texto libre contienen información valiosa para detect
 En este proyecto se desarrolla un sistema **automatizado de NLP** que analiza y clasifica notas clínicas según su **nivel de gravedad clínica**. Este sistema puede asistir a profesionales de la salud en la **priorización de pacientes**, mejorando la eficiencia del sistema sanitario y reduciendo riesgos.
 
 Además, se realiza un análisis crítico de los **posibles sesgos lingüísticos o sociales** que puedan influir en el modelo, junto con el uso de **técnicas de interpretabilidad** para asegurar la confianza en su aplicación clínica.
-
----
 
 ### 📊 Resumen
 
@@ -113,8 +102,6 @@ Para asegurar la **transparencia y explicabilidad**, se aplicaron métodos como 
 
 En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en contextos clínicos de manera **efectiva y responsable**, siempre considerando los aspectos éticos y sociales de la inteligencia artificial.
 
----
-
 ### 🧰 Tecnologías Utilizadas
 
 - **Python**
@@ -124,8 +111,6 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 - **LIME**
 - **NLTK / spaCy**
 - **Pandas / NumPy**
-
----
 
 ## ✍️ Autor
 
@@ -137,13 +122,9 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 
 > ### PROYECTO 3 - INTERPRETABILIDAD DE MODELOS PREDICTIVOS USANDO LIME Y SHAP
 
----
-
 ### 🎯 Objetivo
 
 Aplicar herramientas de **explicabilidad de modelos**, específicamente **LIME** y **SHAP**, para analizar y justificar el comportamiento de un modelo de clasificación, destacando la importancia de la transparencia en modelos de inteligencia artificial.
-
----
 
 ### 🧠 Contexto
 
@@ -151,8 +132,6 @@ Imagina formar parte de un equipo de ciencia de datos en una organización que u
 Estas decisiones deben ser **comprensibles para personas no técnicas** —clientes, médicos, auditores o usuarios finales—.  
 
 Por ello, el desafío no consiste únicamente en construir un modelo preciso, sino en garantizar que sea **explicable, auditable y éticamente responsable**.
-
----
 
 ### 📊 Resumen
 
@@ -174,8 +153,6 @@ Este comportamiento fue atribuido a **errores en los datos de entrada**, donde a
 📈 Este caso demuestra que la **precisión por sí sola no es suficiente** en ámbitos sensibles como la salud.  
 La **interpretabilidad** permite auditar la lógica interna del modelo, identificar sesgos y vulnerabilidades, y comprender sus fallos, garantizando una **IA segura, ética y transparente**.
 
----
-
 ### 🧰 Tecnologías Utilizadas
 
 - **Python**
@@ -185,8 +162,6 @@ La **interpretabilidad** permite auditar la lógica interna del modelo, identifi
 - **SHAP**
 - **Matplotlib / Seaborn**
 - **Pandas / NumPy**
-
----
 
 ### ✍️ Autor
 
