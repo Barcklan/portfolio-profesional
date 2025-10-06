@@ -41,7 +41,7 @@ Indica cuál era el propósito principal del proyecto.
 `Python`, `Pandas`, `Scikit-learn`, `Matplotlib`, etc.
 
 **Código fuente:**  
-👉 [Ver carpeta del proyecto](./proyecto1)
+👉 [Ver carpeta del proyecto](./proyecto 1)
 
 **Reflexión:**  
 Describe lo aprendido: habilidades técnicas, desafíos y conclusiones.
