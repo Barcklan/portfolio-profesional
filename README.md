@@ -33,14 +33,14 @@ A continuación, se presentan tres de mis proyectos más relevantes, donde aplic
 
 ---
 
-## 🎯 Objetivo
+### 🎯 Objetivo
 
 Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
 El modelo debe ser explicable, eficiente y presentar resultados interpretables para su uso en contextos financieros.
 
 ---
 
-## 🧠 Contexto
+### 🧠 Contexto
 
 Las entidades financieras deben decidir si otorgan o no un crédito a un cliente.  
 Esta decisión, si se basa en modelos poco explicables, puede generar sesgos, exclusiones injustas o pérdidas económicas.  
@@ -49,7 +49,7 @@ Se busca construir un modelo moderno, basado en **redes neuronales profundas**, 
 
 ---
 
-## 📊 Resumen
+### 📊 Resumen
 
 Se desarrolló un sistema de **scoring crediticio** basado en **redes neuronales profundas (DNN)** para predecir la probabilidad de impago de clientes bancarios.
 
@@ -63,7 +63,7 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 ---
 
-## 🧰 Tecnologías Utilizadas
+### 🧰 Tecnologías Utilizadas
 
 - **Python**
 - **TensorFlow / Keras**
@@ -74,7 +74,7 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 ---
 
-## ✍️ Autor
+### ✍️ Autor
 
 **Claudio Andrés Díaz Vargas**
 
@@ -87,7 +87,7 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 ---
 
-## 🎯 Objetivo
+### 🎯 Objetivo
 
 Desarrollar un sistema de **procesamiento de lenguaje natural (NLP)** capaz de clasificar textos médicos —como notas clínicas, síntomas o diagnósticos— según su **gravedad clínica (leve, moderado, severo)**.  
 
@@ -95,7 +95,7 @@ El modelo debe integrar **buenas prácticas de preprocesamiento, evaluación y m
 
 ---
 
-## 🧠 Contexto
+### 🧠 Contexto
 
 Los registros médicos en texto libre contienen información valiosa para detectar la gravedad de una afección de forma temprana. Sin embargo, su interpretación manual requiere tiempo, conocimiento médico y puede verse afectada por **sesgos humanos**.
 
@@ -105,7 +105,7 @@ Además, se realiza un análisis crítico de los **posibles sesgos lingüístico
 
 ---
 
-## 📊 Resumen
+### 📊 Resumen
 
 Se implementaron y compararon dos enfoques principales:
 
@@ -120,7 +120,7 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 
 ---
 
-## 🧰 Tecnologías Utilizadas
+### 🧰 Tecnologías Utilizadas
 
 - **Python**
 - **Scikit-learn**
@@ -144,13 +144,13 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 
 ---
 
-## 🎯 Objetivo
+### 🎯 Objetivo
 
 Aplicar herramientas de **explicabilidad de modelos**, específicamente **LIME** y **SHAP**, para analizar y justificar el comportamiento de un modelo de clasificación, destacando la importancia de la transparencia en modelos de inteligencia artificial.
 
 ---
 
-## 🧠 Contexto
+### 🧠 Contexto
 
 Imagina formar parte de un equipo de ciencia de datos en una organización que utiliza **inteligencia artificial para apoyar decisiones críticas**.  
 Estas decisiones deben ser **comprensibles para personas no técnicas** —clientes, médicos, auditores o usuarios finales—.  
@@ -159,7 +159,7 @@ Por ello, el desafío no consiste únicamente en construir un modelo preciso, si
 
 ---
 
-## 📊 Resumen
+### 📊 Resumen
 
 Se analizó un modelo de **Random Forest** para predecir **enfermedades cardíacas**, utilizando herramientas de interpretabilidad como **SHAP** y **LIME**.
 
@@ -181,7 +181,7 @@ La **interpretabilidad** permite auditar la lógica interna del modelo, identifi
 
 ---
 
-## 🧰 Tecnologías Utilizadas
+### 🧰 Tecnologías Utilizadas
 
 - **Python**
 - **Scikit-learn**
@@ -193,7 +193,7 @@ La **interpretabilidad** permite auditar la lógica interna del modelo, identifi
 
 ---
 
-## ✍️ Autor
+### ✍️ Autor
 
 **Claudio Andrés Díaz Vargas**
 
