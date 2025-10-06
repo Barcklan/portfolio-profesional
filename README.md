@@ -83,7 +83,7 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 ---
 
 > ### PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES  
-### Con enfoque ético y mitigación de sesgos
+> ### CON ENFOQUE ÉTICO Y MITIGACIÓN DE SESGOS
 
 ---
 
