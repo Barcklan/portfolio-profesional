@@ -1,7 +1,6 @@
-<img src="https://github.com/tuusuario.png" width="120" align="left" style="border-radius:50%; margin-right:20px;">
-
-
 # 💼 Portafolio Profesional
+
+<img src="https://github.com/barcklan.png" width="120" align="left" style="border-radius:50%; margin-right:20px;">
 
 ## 👋 Sobre mí
 
