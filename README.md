@@ -1,6 +1,5 @@
-| <img src="https://github.com/tuusuario.png" width="150" style="border-radius:50%;"> |  
-|:--:|
-| **Ingeniero en Estadística | Machine Learning | Ciencia de Datos** |
+<img src="https://github.com/tuusuario.png" width="120" align="left" style="border-radius:50%; margin-right:20px;">
+
 
 # 💼 Portafolio Profesional
 
