@@ -2,14 +2,14 @@
 
 ## 👋 Sobre mí
 
-**Nombre:** [Tu nombre completo]  
-**Especialización:** [Tu área: Ej. Ciencia de Datos / Desarrollo de Software / IA aplicada a la salud]  
-**Correo:** [tu.correo@ejemplo.com]  
+**Nombre:** Claudio Díaz Vargas  
+**Especialización:** Ingeniero en Estadística, especializado en Machine Learning y Ciencia de Datos.
+**Correo:** [cdiazv.ies@gmail.com]  
 **GitHub:** [https://github.com/tuusuario](https://github.com/tuusuario)
 
-Soy un profesional apasionado por [describe brevemente tus intereses].  
-Tengo experiencia en [menciona tus principales habilidades técnicas o áreas de trabajo].  
-Mi objetivo es [menciona tu meta profesional o área donde quieres desarrollarte].
+Soy un profesional apasionado por el análisis de datos, la modelación estadística y el desarrollo de soluciones basadas en Machine Learning que contribuyan a la toma de decisiones informadas.
+Tengo experiencia en análisis exploratorio de datos, modelado estadístico, técnicas de Machine Learning supervisado y no supervisado, optimización de modelos, visualización de datos y automatización de procesos analíticos con Python.
+Mi objetivo es aplicar mis conocimientos en estadística y Machine Learning para diseñar soluciones basadas en datos que apoyen la toma de decisiones y generen impacto positivo.
 
 ---
 
