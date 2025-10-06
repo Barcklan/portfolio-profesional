@@ -35,7 +35,9 @@ A continuación, se presentan tres de mis proyectos más relevantes, donde aplic
 
 Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
 El modelo debe ser explicable, eficiente y presentar resultados interpretables para su uso en contextos financieros.
+
 ---
+
 ### 🧠 Contexto
 
 Las entidades financieras deben decidir si otorgan o no un crédito a un cliente.  
@@ -82,7 +84,6 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 > ### CON ENFOQUE ÉTICO Y MITIGACIÓN DE SESGOS
 
 ---
-
 ### 🎯 Objetivo
 
 Desarrollar un sistema de **procesamiento de lenguaje natural (NLP)** capaz de clasificar textos médicos —como notas clínicas, síntomas o diagnósticos— según su **gravedad clínica (leve, moderado, severo)**.  
