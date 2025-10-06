@@ -1,18 +1,8 @@
 # 💼 Portafolio Profesional
 
-<img src="https://github.com/barcklan.png" width="120" align="left" style="border-radius:50%; margin-right:20px;">
-
 ## 👋 Sobre mí
 
-<p align="left">
-  <svg width="150" height="150">
-    <clipPath id="circleView">
-      <circle cx="75" cy="75" r="75" />
-    </clipPath>
-    <image href="https://github.com/barcklan.png" width="150" height="150" clip-path="url(#circleView)" />
-  </svg>
-</p>
-
+<img src="https://github.com/barcklan.png" width="120" align="left" style="border-radius:50%; margin-right:20px;">
 
 Soy un profesional apasionado por el análisis de datos, la modelación estadística y el desarrollo de soluciones basadas en *Machine Learning* que contribuyan a la toma de decisiones informadas.
 
