@@ -13,7 +13,7 @@ Soy un profesional apasionado por el análisis de datos, la modelación estadís
 
 **Correo:** cdiazv.ies@gmail.com
 
-**GitHub:** [https://github.com/tuusuario](https://github.com/tuusuario)
+**GitHub:** [https://github.com/barcklan](https://github.com/barcklan)
 
 Soy un profesional apasionado por el análisis de datos, la modelación estadística y el desarrollo de soluciones basadas en Machine Learning que contribuyan a la toma de decisiones informadas.
 
