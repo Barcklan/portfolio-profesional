@@ -37,7 +37,6 @@ Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la
 El modelo debe ser explicable, eficiente y presentar resultados interpretables para su uso en contextos financieros.
 
 ---
-
 ### 🧠 Contexto
 
 Las entidades financieras deben decidir si otorgan o no un crédito a un cliente.  
