@@ -45,3 +45,12 @@ Se aplicaron técnicas de **interpretabilidad (LIME)** y evaluación ética sobr
 
 ## 📂 Estructura de Archivos
 
+```bash
+ proyecto2/                 ← Carpeta del Proyecto 2
+   ├─ README.md
+   ├─ data/
+   ├─ notebooks/
+   ├─ scripts/
+   ├─ reports/
+   └─ requirements.txt
+```
