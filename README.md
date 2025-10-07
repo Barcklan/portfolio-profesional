@@ -72,8 +72,8 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 ---
 
-> ### PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES  
-> ### CON ENFOQUE ÉTICO Y MITIGACIÓN DE SESGOS
+### **PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES**  
+### **CON ENFOQUE ÉTICO Y MITIGACIÓN DE SESGOS**
 
 ### 🎯 Objetivo
 
@@ -120,7 +120,7 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 
 ---
 
-> ### PROYECTO 3 - INTERPRETABILIDAD DE MODELOS PREDICTIVOS USANDO LIME Y SHAP
+### **PROYECTO 3 - INTERPRETABILIDAD DE MODELOS PREDICTIVOS USANDO LIME Y SHAP**
 
 ### 🎯 Objetivo
 
