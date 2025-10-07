@@ -29,7 +29,7 @@ A continuación, se presentan tres de mis proyectos más relevantes, donde aplic
 
 ---
 
-> ### PROYECTO 1 - SISTEMA INTELIGENTE DE SCORING CREDITICIO CON REDES NEURONALES PROFUNDAS (DNN)
+### **PROYECTO 1 - SISTEMA INTELIGENTE DE SCORING CREDITICIO CON REDES NEURONALES PROFUNDAS (DNN)**
 
 ### 🎯 Objetivo
 
