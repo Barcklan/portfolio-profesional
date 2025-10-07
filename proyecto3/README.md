@@ -41,7 +41,6 @@ Se analizó un modelo de **Random Forest** para predecir **enfermedades cardíac
 ## 📂 Estructura de Archivos
 ```bash
  proyecto1/                 ← Carpeta del Proyecto 1
- 
    ├─ README.md              ← Documentación detallada del proyecto 1
    ├─ data/                  ← (Opcional) datasets utilizados
    ├─ notebooks/             ← Notebooks de análisis y entrenamiento
