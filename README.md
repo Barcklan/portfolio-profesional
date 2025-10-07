@@ -68,6 +68,7 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 ### ✍️ Autor
 
+
 **Claudio Andrés Díaz Vargas**
 
 🔗 [Ver proyecto completo](./proyecto1)
@@ -117,7 +118,7 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 - **Pandas / NumPy**
 
 ## ✍️ Autor
----
+
 
 **Claudio Andrés Díaz Vargas**
 
@@ -171,6 +172,7 @@ La **interpretabilidad** permite auditar la lógica interna del modelo, identifi
 - **Pandas / NumPy**
 
 ### ✍️ Autor
+
 
 **Claudio Andrés Díaz Vargas**
 
