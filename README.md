@@ -2,43 +2,35 @@
 
 ## 👋 Sobre mí
 
-<img src="https://github.com/barcklan.png" width="120" align="left" style="border-radius:50%; margin-right:20px;">
+<img src="https://github.com/barcklan.png" width="120" align="left" style="border-radius: 50%; margin-right: 20px;">
 
-Soy un profesional apasionado por el análisis de datos, la modelación estadística y el desarrollo de soluciones basadas en *Machine Learning* que contribuyan a la toma de decisiones informadas.
+Soy un profesional apasionado por el **análisis de datos**, la **modelación estadística** y el **desarrollo de soluciones basadas en Machine Learning** que contribuyan a la toma de decisiones informadas.
 
-
-**Nombre:** Claudio Díaz Vargas
-
-**Especialización:** Ingeniero en Estadística, especializado en Machine Learning y Ciencia de Datos.
-
-**Correo:** cdiazv.ies@gmail.com
-
+**Nombre:** Claudio Andrés Díaz Vargas  
+**Especialización:** Ingeniero en Estadística, especializado en Machine Learning y Ciencia de Datos  
+**Correo:** [cdiazv.ies@gmail.com](mailto:cdiazv.ies@gmail.com)  
 **GitHub:** [https://github.com/barcklan](https://github.com/barcklan)
 
-Soy un profesional apasionado por el análisis de datos, la modelación estadística y el desarrollo de soluciones basadas en Machine Learning que contribuyan a la toma de decisiones informadas.
+Tengo experiencia en **análisis exploratorio de datos**, **modelado estadístico**, **técnicas de aprendizaje supervisado y no supervisado**, **optimización de modelos**, **visualización de datos** y **automatización de procesos analíticos** con Python.
 
-Tengo experiencia en análisis exploratorio de datos, modelado estadístico, técnicas de Machine Learning supervisado y no supervisado, optimización de modelos, visualización de datos y automatización de procesos analíticos con Python.
-
-Mi objetivo es aplicar mis conocimientos en estadística y Machine Learning para diseñar soluciones basadas en datos que apoyen la toma de decisiones y generen impacto positivo.
+Mi objetivo es **aplicar mis conocimientos en estadística y Machine Learning** para diseñar soluciones basadas en datos que apoyen la toma de decisiones y generen impacto positivo.
 
 ---
 
 ## 🚀 Proyectos Destacados
 
-A continuación, se presentan tres de mis proyectos más relevantes, donde aplico mis conocimientos en análisis, programación y documentación técnica.
+A continuación, se presentan tres de mis proyectos más relevantes, donde aplico conocimientos en análisis, programación y documentación técnica.
 
 ---
 
-### **PROYECTO 1 - SISTEMA INTELIGENTE DE SCORING CREDITICIO CON REDES NEURONALES PROFUNDAS (DNN)**
-
----
+## 🧠 PROYECTO 1 — Sistema Inteligente de *Scoring* Crediticio con Redes Neuronales Profundas (DNN)
 
 ### 🎯 Objetivo
 
 Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
 El modelo debe ser explicable, eficiente y presentar resultados interpretables para su uso en contextos financieros.
 
-### 🧠 Contexto
+### 🧩 Contexto
 
 Las entidades financieras deben decidir si otorgan o no un crédito a un cliente.  
 Esta decisión, si se basa en modelos poco explicables, puede generar sesgos, exclusiones injustas o pérdidas económicas.  
@@ -47,15 +39,14 @@ Se busca construir un modelo moderno, basado en **redes neuronales profundas**, 
 
 ### 📊 Resumen
 
-Se desarrolló un sistema de **scoring crediticio** basado en **redes neuronales profundas (DNN)** para predecir la probabilidad de impago de clientes bancarios.
+Se desarrolló un sistema de **scoring crediticio** basado en **DNN** para predecir la probabilidad de impago de clientes bancarios.
 
-El proyecto comenzó con un **análisis exploratorio** que identificó diferencias claras entre buenos y malos pagadores, especialmente en **monto y duración del crédito**.  
-Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** para balancear las clases, se entrenaron dos modelos principales:
+Tras un **análisis exploratorio** que identificó diferencias entre buenos y malos pagadores (en **monto y duración del crédito**), se aplicó **SMOTE** para balancear clases y se entrenaron dos modelos:
 
-- **DNN simple:** desempeño superior, con *accuracy* de **70,5%** y **AUC = 0,78**, mostrando buena generalización y equilibrio entre clientes *good* y *bad*.  
-- **ResNet tabular:** obtuvo *accuracy* de **64%** y **AUC = 0,64**, con mejor detección de clientes *bad* pero mayor riesgo de falsos positivos.
+- **DNN simple:** *accuracy* de **70,5%**, **AUC = 0,78**, mostrando buena generalización y equilibrio entre clases.  
+- **ResNet tabular:** *accuracy* de **64%**, **AUC = 0,64**, mejor detección de clientes *bad* pero más falsos positivos.
 
-📈 En conclusión, la **DNN simple** se posiciona como la opción más confiable y efectiva para decisiones de crédito, aunque aún puede mejorarse la predicción de clientes solventes y la interpretabilidad del modelo.
+📈 La **DNN simple** se posiciona como la opción más confiable y efectiva, aunque puede mejorarse la predicción de clientes solventes y la interpretabilidad.
 
 ### 🧰 Tecnologías Utilizadas
 
@@ -66,47 +57,37 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 - **Matplotlib / Seaborn**
 - **SMOTE (imbalanced-learn)**
 
-### ✍️ Autor
-
----
-
-**Claudio Andrés Díaz Vargas**
-
 🔗 [Ver proyecto completo](./proyecto1)
 
 ---
 
-### **PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES**  
-### **CON ENFOQUE ÉTICO Y MITIGACIÓN DE SESGOS**
-
----
+## 🧬 PROYECTO 2 — Clasificación de Notas Clínicas para Detección Temprana de Afecciones  
+### Con enfoque ético y mitigación de sesgos
 
 ### 🎯 Objetivo
 
-Desarrollar un sistema de **procesamiento de lenguaje natural (NLP)** capaz de clasificar textos médicos —como notas clínicas, síntomas o diagnósticos— según su **gravedad clínica (leve, moderado, severo)**.  
+Desarrollar un sistema de **procesamiento de lenguaje natural (NLP)** capaz de clasificar textos médicos (notas clínicas, síntomas, diagnósticos) según su **gravedad clínica (leve, moderado, severo)**.  
+El modelo debe incluir **buenas prácticas de preprocesamiento, evaluación y mitigación de sesgos lingüísticos y sociales**.
 
-El modelo debe integrar **buenas prácticas de preprocesamiento, evaluación y mitigación de sesgos lingüísticos y sociales**, garantizando transparencia y responsabilidad ética en su uso.
+### 🧩 Contexto
 
-### 🧠 Contexto
+Los registros médicos en texto libre contienen información valiosa para detectar la gravedad de una afección de forma temprana.  
+Sin embargo, su interpretación manual requiere tiempo, experiencia y puede verse afectada por **sesgos humanos**.
 
-Los registros médicos en texto libre contienen información valiosa para detectar la gravedad de una afección de forma temprana. Sin embargo, su interpretación manual requiere tiempo, conocimiento médico y puede verse afectada por **sesgos humanos**.
-
-En este proyecto se desarrolla un sistema **automatizado de NLP** que analiza y clasifica notas clínicas según su **nivel de gravedad clínica**. Este sistema puede asistir a profesionales de la salud en la **priorización de pacientes**, mejorando la eficiencia del sistema sanitario y reduciendo riesgos.
-
-Además, se realiza un análisis crítico de los **posibles sesgos lingüísticos o sociales** que puedan influir en el modelo, junto con el uso de **técnicas de interpretabilidad** para asegurar la confianza en su aplicación clínica.
+El sistema desarrollado clasifica automáticamente las notas clínicas según su **nivel de gravedad**, ayudando a profesionales de la salud a **priorizar pacientes** y mejorar la eficiencia hospitalaria.  
+Además, se realizó un análisis ético sobre los posibles sesgos y se aplicaron métodos de **interpretabilidad** para garantizar confianza en su aplicación.
 
 ### 📊 Resumen
 
-Se implementaron y compararon dos enfoques principales:
+Se compararon dos enfoques:
 
-- **Naive Bayes con TF-IDF:** enfoque clásico basado en estadísticas de frecuencia de palabras.  
-- **BERT en español:** modelo de lenguaje contextualizado de última generación.
+- **Naive Bayes con TF-IDF:** enfoque clásico, eficiente y explicable.  
+- **BERT en español:** modelo contextualizado de última generación.
 
-Ambos fueron entrenados sobre un **dataset de notas clínicas** y lograron **métricas perfectas en validación**, evidenciando tanto la alta capacidad de separación de los datos como un posible **riesgo de sobreajuste**.  
+Ambos lograron **métricas perfectas en validación**, lo que evidenció tanto la capacidad de separación de los datos como un **riesgo de sobreajuste**.  
+Se aplicaron técnicas de **LIME** para interpretabilidad y se evaluaron riesgos éticos y sesgos potenciales.
 
-Para asegurar la **transparencia y explicabilidad**, se aplicaron métodos como **LIME** y se realizó una evaluación ética de **riesgos y sesgos** potenciales en las predicciones.
-
-En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en contextos clínicos de manera **efectiva y responsable**, siempre considerando los aspectos éticos y sociales de la inteligencia artificial.
+📈 El proyecto demuestra cómo los modelos de NLP pueden aplicarse en contextos clínicos de forma **efectiva, transparente y responsable**.
 
 ### 🧰 Tecnologías Utilizadas
 
@@ -118,49 +99,31 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 - **NLTK / spaCy**
 - **Pandas / NumPy**
 
-## ✍️ Autor
-
-
-**Claudio Andrés Díaz Vargas**
-
 🔗 [Ver proyecto completo](./proyecto2)
 
 ---
 
-### **PROYECTO 3 - INTERPRETABILIDAD DE MODELOS PREDICTIVOS USANDO LIME Y SHAP**
-
----
+## 🧩 PROYECTO 3 — Interpretabilidad de Modelos Predictivos usando LIME y SHAP
 
 ### 🎯 Objetivo
 
-Aplicar herramientas de **explicabilidad de modelos**, específicamente **LIME** y **SHAP**, para analizar y justificar el comportamiento de un modelo de clasificación, destacando la importancia de la transparencia en modelos de inteligencia artificial.
+Aplicar herramientas de **explicabilidad de modelos**, como **LIME** y **SHAP**, para analizar y justificar el comportamiento de un modelo de clasificación, destacando la importancia de la transparencia en la inteligencia artificial.
 
-### 🧠 Contexto
+### 🧩 Contexto
 
-Imagina formar parte de un equipo de ciencia de datos en una organización que utiliza **inteligencia artificial para apoyar decisiones críticas**.  
-Estas decisiones deben ser **comprensibles para personas no técnicas** —clientes, médicos, auditores o usuarios finales—.  
-
-Por ello, el desafío no consiste únicamente en construir un modelo preciso, sino en garantizar que sea **explicable, auditable y éticamente responsable**.
+Formar parte de un equipo que usa **IA en decisiones críticas** implica construir modelos **explicables y éticamente responsables**.  
+Este proyecto explora cómo la interpretabilidad permite **auditar la lógica interna** de los modelos y detectar errores o sesgos ocultos.
 
 ### 📊 Resumen
 
-Se analizó un modelo de **Random Forest** para predecir **enfermedades cardíacas**, utilizando herramientas de interpretabilidad como **SHAP** y **LIME**.
+Se analizó un modelo de **Random Forest** para predecir **enfermedades cardíacas**, utilizando **LIME** y **SHAP**.  
+El modelo alcanzó **88.6% de precisión**, pero las explicaciones revelaron **fallas críticas**:
 
-El modelo mostró una **alta precisión general (88.6%)**, pero la interpretabilidad reveló fallos importantes:
+- Uso correcto de variables relevantes (**ECG**, **angina**, **frecuencia cardíaca máxima**).  
+- **Manejo incorrecto del colesterol**: interpretó valores bajos como riesgosos y altos como protectores, debido a datos con valores `0.0`.
 
-- El modelo se apoyaba correctamente en variables **clínicamente válidas**, como:
-  - Patrones de **ECG durante el ejercicio**
-  - **Angina inducida por esfuerzo**
-  - **Frecuencia cardíaca máxima alcanzada**
-
-- Sin embargo, se detectó una **inconsistencia crítica**:  
-  el modelo interpretaba los **valores bajos de colesterol** como **mayor riesgo**,  
-  y los **valores altos como protectores**, lo cual es clínicamente incorrecto.
-
-Este comportamiento fue atribuido a **errores en los datos de entrada**, donde algunos valores de colesterol aparecían como `0.0`, distorsionando el aprendizaje del modelo y provocando **falsos positivos** (predicciones de enfermedad inexistente).
-
-📈 Este caso demuestra que la **precisión por sí sola no es suficiente** en ámbitos sensibles como la salud.  
-La **interpretabilidad** permite auditar la lógica interna del modelo, identificar sesgos y vulnerabilidades, y comprender sus fallos, garantizando una **IA segura, ética y transparente**.
+📉 Sin interpretabilidad, este error habría pasado inadvertido, comprometiendo decisiones clínicas.  
+El caso demuestra que **precisión sin transparencia** no es suficiente: la interpretabilidad garantiza **auditoría, confianza y ética** en modelos de IA.
 
 ### 🧰 Tecnologías Utilizadas
 
@@ -172,11 +135,6 @@ La **interpretabilidad** permite auditar la lógica interna del modelo, identifi
 - **Matplotlib / Seaborn**
 - **Pandas / NumPy**
 
-### ✍️ Autor
-
-
-**Claudio Andrés Díaz Vargas**
-
 🔗 [Ver proyecto completo](./proyecto3)
 
 ---
@@ -184,8 +142,9 @@ La **interpretabilidad** permite auditar la lógica interna del modelo, identifi
 ## 🧭 Organización y Buenas Prácticas
 
 Este portafolio está organizado de manera clara y estructurada:
-- Navegación sencilla entre secciones.
-- Documentación técnica y reflexiva.
+
+- Navegación sencilla entre secciones.  
+- Documentación técnica y reflexiva.  
 - Redacción cuidada, ortografía revisada y estilo profesional.
 
 ---
@@ -193,4 +152,4 @@ Este portafolio está organizado de manera clara y estructurada:
 ## 🌐 Enlace al Portafolio
 
 Puedes acceder a este portafolio directamente en GitHub:  
-🔗 [https://github.com/tuusuario/portfolio-profesional](https://github.com/barcklan/portfolio-profesional)
+🔗 [https://github.com/barcklan/portfolio-profesional](https://github.com/barcklan/portfolio-profesional)
