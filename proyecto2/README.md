@@ -1,6 +1,5 @@
 # 🏥 Proyecto 2 — Clasificación de Notas Clínicas con Enfoque Ético y Mitigación de Sesgos
 
-> **Evaluación Modular - Módulo 8**  
 > **Tema:** Procesamiento de Lenguaje Natural (NLP) aplicado al ámbito clínico
 
 ---
