@@ -34,83 +34,111 @@ A continuación, se presentan tres de mis proyectos más relevantes, donde aplic
 
 ---
 
-## 🧠 PROYECTO 1 — Sistema Inteligente de *Scoring* Crediticio con Redes Neuronales Profundas (DNN)
+---
 
-### 🎯 Objetivo
+## 🧠 Proyecto 1 — Sistema Inteligente de Scoring Crediticio (DNN)
 
-Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
-El modelo debe ser explicable, eficiente y presentar resultados interpretables para su uso en contextos financieros.
-
-### 🧩 Contexto
-
-Las entidades financieras deben decidir si otorgan o no un crédito a un cliente.  
-Esta decisión, si se basa en modelos poco explicables, puede generar sesgos, exclusiones injustas o pérdidas económicas.  
-
-Se busca construir un modelo moderno, basado en **redes neuronales profundas**, que sea a la vez **preciso y explicable**, permitiendo a las instituciones mejorar la calidad de sus decisiones crediticias.
-
-### 📊 Resumen
-
-Se desarrolló un sistema de **scoring crediticio** basado en **DNN** para predecir la probabilidad de impago de clientes bancarios.
-
-Tras un **análisis exploratorio** que identificó diferencias entre buenos y malos pagadores (en **monto y duración del crédito**), se aplicó **SMOTE** para balancear clases y se entrenaron dos modelos:
-
-- **DNN simple:** *accuracy* de **70,5%**, **AUC = 0,78**, mostrando buena generalización y equilibrio entre clases.  
-- **ResNet tabular:** *accuracy* de **64%**, **AUC = 0,64**, mejor detección de clientes *bad* pero más falsos positivos.
-
-📈 La **DNN simple** se posiciona como la opción más confiable y efectiva, aunque puede mejorarse la predicción de clientes solventes y la interpretabilidad.
-
-### 🧰 Tecnologías Utilizadas
-
-- **Python**
-- **TensorFlow / Keras**
-- **Scikit-learn**
-- **Pandas / NumPy**
-- **Matplotlib / Seaborn**
-- **SMOTE (imbalanced-learn)**
-
-🔗 [Ver proyecto completo](./proyecto1)
+> **Evaluación Modular - Módulo 7**  
+> **Tema:** Redes Neuronales Profundas aplicadas a riesgo crediticio.
 
 ---
 
-## 🧬 PROYECTO 2 — Clasificación de Notas Clínicas para Detección Temprana de Afecciones  
-### Con enfoque ético y mitigación de sesgos
-
 ### 🎯 Objetivo
+Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
+El modelo debe ser explicable, eficiente y presentar resultados interpretables para su uso en contextos financieros.
 
-Desarrollar un sistema de **procesamiento de lenguaje natural (NLP)** capaz de clasificar textos médicos (notas clínicas, síntomas, diagnósticos) según su **gravedad clínica (leve, moderado, severo)**.  
-El modelo debe incluir **buenas prácticas de preprocesamiento, evaluación y mitigación de sesgos lingüísticos y sociales**.
+---
 
 ### 🧩 Contexto
+Las entidades financieras deben decidir si otorgan o no un crédito a un cliente. Esta decisión, si se basa en modelos poco explicables, puede generar sesgos, exclusiones injustas o pérdidas económicas.  
+Este proyecto busca construir un modelo **moderno, preciso y explicable**, basado en **redes neuronales profundas (DNN)**, que permita mejorar las decisiones crediticias.
 
-Los registros médicos en texto libre contienen información valiosa para detectar la gravedad de una afección de forma temprana.  
-Sin embargo, su interpretación manual requiere tiempo, experiencia y puede verse afectada por **sesgos humanos**.
-
-El sistema desarrollado clasifica automáticamente las notas clínicas según su **nivel de gravedad**, ayudando a profesionales de la salud a **priorizar pacientes** y mejorar la eficiencia hospitalaria.  
-Además, se realizó un análisis ético sobre los posibles sesgos y se aplicaron métodos de **interpretabilidad** para garantizar confianza en su aplicación.
+---
 
 ### 📊 Resumen
+Se desarrolló un sistema de **scoring crediticio** basado en **redes neuronales profundas (DNN)** para predecir la probabilidad de impago.  
+Tras aplicar **SMOTE** para balancear las clases, se entrenaron dos modelos:
 
-Se compararon dos enfoques:
+- 🧠 **DNN simple** → Accuracy: **70.5%**, AUC: **0.78**  
+- ⚙️ **ResNet tabular** → Accuracy: **64%**, AUC: **0.64**
 
-- **Naive Bayes con TF-IDF:** enfoque clásico, eficiente y explicable.  
-- **BERT en español:** modelo contextualizado de última generación.
+📈 La **DNN simple** mostró mejor generalización, equilibrio y estabilidad, siendo la opción más confiable para decisiones crediticias.
 
-Ambos lograron **métricas perfectas en validación**, lo que evidenció tanto la capacidad de separación de los datos como un **riesgo de sobreajuste**.  
-Se aplicaron técnicas de **LIME** para interpretabilidad y se evaluaron riesgos éticos y sesgos potenciales.
-
-📈 El proyecto demuestra cómo los modelos de NLP pueden aplicarse en contextos clínicos de forma **efectiva, transparente y responsable**.
+---
 
 ### 🧰 Tecnologías Utilizadas
+- Python  
+- TensorFlow / Keras  
+- Scikit-learn  
+- Pandas / NumPy  
+- Matplotlib / Seaborn  
+- SMOTE (imbalanced-learn)
 
-- **Python**
-- **Scikit-learn**
-- **Transformers (Hugging Face)**
-- **BERT Multilingual / BETO**
-- **LIME**
-- **NLTK / spaCy**
-- **Pandas / NumPy**
+---
 
-🔗 [Ver proyecto completo](./proyecto2)
+### ✍️ Autor
+**Claudio Andrés Díaz Vargas**
+
+🔗 [Ver proyecto completo »](./proyecto1)
+
+---
+
+<hr style="border:1px solid #bbb; margin:40px 0;">
+
+
+
+---
+
+## 🏥 Proyecto 2 — Clasificación de Notas Clínicas con Enfoque Ético y Mitigación de Sesgos
+
+> **Evaluación Modular - Módulo 8**  
+> **Tema:** Procesamiento de Lenguaje Natural (NLP) aplicado al ámbito clínico.
+
+---
+
+### 🎯 Objetivo
+Desarrollar un sistema de **NLP** que clasifique textos médicos según su **gravedad clínica (leve, moderado, severo)**, aplicando buenas prácticas de **preprocesamiento, evaluación y mitigación de sesgos** lingüísticos y sociales.
+
+---
+
+### 🧩 Contexto
+Los registros médicos en texto libre contienen información valiosa, pero requieren tiempo y experiencia para analizarse manualmente.  
+Este proyecto propone un **sistema automatizado** que asista en la **detección temprana de afecciones**, priorizando pacientes y reduciendo riesgos.
+
+También se analiza la **ética del modelo**, considerando sesgos lingüísticos o sociales, y se incorporan **métodos de interpretabilidad (LIME)** para fortalecer la transparencia del sistema.
+
+---
+
+### 📊 Resumen
+Se compararon dos enfoques:
+
+- 📚 **Naive Bayes + TF-IDF**  
+- 🤖 **BERT Multilingual / BETO**
+
+Ambos lograron **métricas perfectas en validación**, revelando gran capacidad predictiva pero riesgo de **sobreajuste**.  
+Se aplicaron técnicas de **interpretabilidad (LIME)** y una evaluación ética sobre los posibles sesgos en el lenguaje clínico.
+
+---
+
+### 🧰 Tecnologías Utilizadas
+- Python  
+- Scikit-learn  
+- Transformers (Hugging Face)  
+- BERT Multilingual / BETO  
+- LIME  
+- NLTK / spaCy  
+- Pandas / NumPy
+
+---
+
+### ✍️ Autor
+**Claudio Andrés Díaz Vargas**
+
+🔗 [Ver proyecto completo »](./proyecto2)
+
+---
+
+<hr style="border:1px solid #bbb; margin:40px 0;">
 
 ---
 
