@@ -77,6 +77,8 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 ### **PROYECTO 2 - CLASIFICACIÓN DE NOTAS CLÍNICAS PARA DETECCIÓN TEMPRANA DE AFECCIONES**  
 ### **CON ENFOQUE ÉTICO Y MITIGACIÓN DE SESGOS**
 
+---
+
 ### 🎯 Objetivo
 
 Desarrollar un sistema de **procesamiento de lenguaje natural (NLP)** capaz de clasificar textos médicos —como notas clínicas, síntomas o diagnósticos— según su **gravedad clínica (leve, moderado, severo)**.  
@@ -123,6 +125,8 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 ---
 
 ### **PROYECTO 3 - INTERPRETABILIDAD DE MODELOS PREDICTIVOS USANDO LIME Y SHAP**
+
+---
 
 ### 🎯 Objetivo
 
