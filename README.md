@@ -68,6 +68,7 @@ Tras un proceso de **preprocesamiento de datos** y la aplicación de **SMOTE** p
 
 ### ✍️ Autor
 
+---
 
 **Claudio Andrés Díaz Vargas**
 
