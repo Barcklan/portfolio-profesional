@@ -9,7 +9,7 @@
 </td>
 <td>
 
-## 👋 Sobre mí
+## 👋 Sobre mí ...
 
 Soy un profesional apasionado por el **análisis de datos**, la **modelación estadística** y el **desarrollo de soluciones basadas en Machine Learning** que contribuyan a la toma de decisiones informadas.
 
