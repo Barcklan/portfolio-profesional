@@ -39,3 +39,17 @@ Se analizó un modelo de **Random Forest** para predecir **enfermedades cardíac
 ---
 
 ## 📂 Estructura de Archivos
+
+ proyecto1/                 ← Carpeta del Proyecto 1
+ 
+   ├─ README.md              ← Documentación detallada del proyecto 1
+   
+   ├─ data/                  ← (Opcional) datasets utilizados
+   
+   ├─ notebooks/             ← Notebooks de análisis y entrenamiento
+   
+   ├─ scripts/               ← Scripts Python (.py) de entrenamiento, preprocesamiento, etc.
+   
+   ├─ reports/               ← Gráficos, visualizaciones, resultados
+   
+   └─ requirements.txt       ← Dependencias del proyecto
