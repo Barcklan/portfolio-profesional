@@ -1,6 +1,5 @@
 # 🧠 Proyecto 1 — Sistema Inteligente de Scoring Crediticio (DNN)
 
-> **Evaluación Modular - Módulo 7**  
 > **Tema:** Redes Neuronales Profundas aplicadas a riesgo crediticio
 
 ---
