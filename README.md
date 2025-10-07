@@ -117,7 +117,8 @@ En conjunto, el proyecto demuestra cómo los sistemas de NLP pueden aplicarse en
 - **Pandas / NumPy**
 
 ## ✍️ Autor
---
+---
+
 **Claudio Andrés Díaz Vargas**
 
 🔗 [Ver proyecto completo](./proyecto2)
