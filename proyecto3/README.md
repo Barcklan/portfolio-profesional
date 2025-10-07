@@ -1,6 +1,5 @@
 # 🔍 Proyecto 3 — Interpretabilidad de Modelos Predictivos usando LIME y SHAP
 
-> **Evaluación Modular - Módulo 9**  
 > **Tema:** Explicabilidad y ética en inteligencia artificial
 
 ---
