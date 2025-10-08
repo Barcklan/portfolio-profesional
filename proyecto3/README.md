@@ -59,7 +59,7 @@ El análisis de un modelo de Random Forest para predecir enfermedades cardíacas
   <img src="img/F1-Score.png" width="45%" />
 </p>
 
-<h3 align="center">🩺 Modelo Random Forest entrenado</h3>
+<h3 align="center">Modelo Random Forest entrenado</h3>
 <h4 align="center">Métricas en entrenamiento: <b>accuracy: 1.00</b></h4>
 
 <table align="center">
@@ -93,7 +93,7 @@ El análisis de un modelo de Random Forest para predecir enfermedades cardíacas
   <img src="img/F1-Score.png" width="45%" />
 </p>
 
-<h3 align="center">🩺 Modelo Random Forest entrenado</h3>
+<h3 align="center">Modelo Random Forest entrenado</h3>
 <h4 align="center">Métricas en prueba: <b>accuracy: 0.89</b></h4>
 
 <table align="center">
