@@ -93,15 +93,17 @@ Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisi√
 
 ### Explicabilidad con LIME
 
-
-<p align="center">
+<div align="center">
   #### Bayes Naive
+</div>
+<p align="center">
   <img src="img/LIME_BN.png" width="60%" />
 </p>
 
-
+<div align="center">
+ #### BERT
+</div>
 <p align="center">
-  #### BERT
   <img src="img/LIME_BERT.png" width="80%" />
 </p>
 
