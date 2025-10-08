@@ -142,7 +142,7 @@ Con las siguientes herramientas de interpretabilidad se reveló que, aunque el m
 
 ### Uso de herramientas de interpretabilidad: SHAP
 
-### Explicabilidad del caso #50 (codificación del paciente) que el modelo predijo que padecía de una enfermedad cardíaca pero que en realidad estaba sano
+#### Explicabilidad del caso #50 (codificación del paciente) que el modelo predijo que padecía de una enfermedad cardíaca pero que en realidad estaba sano
 
 <div align="center">
   <H3> SHAP </H3>
@@ -155,7 +155,7 @@ El modelo predijo un 83% de probabilidad de enfermedad cardíaca para el pacient
 
 ### Uso de herramientas de interpretabilidad: LIME
 
-### Explicabilidad del caso #50 (codificación del paciente) que el modelo predijo que padecía de una enfermedad cardíaca pero que en realidad estaba sano
+#### Explicabilidad del caso #50 (codificación del paciente) que el modelo predijo que padecía de una enfermedad cardíaca pero que en realidad estaba sano
 
 <div align="center">
   <H3> LIME </H3>
