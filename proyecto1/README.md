@@ -82,5 +82,5 @@ Aunque la DNN es el modelo más confiable, presenta sesgo hacia la clase “Bad�
 Se recomienda optimizar hiperparámetros, mejorar embeddings, ajustar el umbral de decisión y aplicar técnicas de interpretabilidad (SHAP, LIME) para garantizar transparencia y confiabilidad.
 
 
-## 🔗 [Ver análisis completo en el Notebook (.ipynb) »](./proyecto1/notebooks/SISC_DNN.ipynb)
+### 🔗 [Ver análisis completo en el Notebook (.ipynb) »](./notebooks/SISC_DNN.ipynb)
 
