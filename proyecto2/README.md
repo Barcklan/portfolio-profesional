@@ -60,8 +60,8 @@ Se aplicaron técnicas de **interpretabilidad (LIME)** y evaluación ética sobr
 Se implementaron y compararon dos enfoques: Naive Bayes con TF-IDF y BERT en español, ambos entrenados en un dataset de notas clínicas. Los modelos alcanzaron métricas perfectas en el conjunto de validación, lo que evidenció tanto la capacidad de separación de los datos como el riesgo de sobreajuste. Para garantizar transparencia, se aplicaron métodos de interpretabilidad como LIME, y se evaluaron los riesgos éticos y sesgos potenciales.
 
 <p align="center">
-  <img src="img/Metricas.png" width="60%" />
-  <img src="img/F1-Score.png" width="60%" />
+  <img src="img/Metricas.png" width="45.7%" />
+  <img src="img/F1-Score.png" width="45%" />
 </p>
 
 <div align="center">
@@ -96,14 +96,14 @@ Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisi�
 #### Bayes Naive
 
 <p align="center">
-  <img src="img/LIME_BN.png" width="45%" />
+  <img src="img/LIME_BN.png" width="60%" />
 </p>
 <div align="center">
 
 #### BERT
 
 <p align="center">
-  <img src="img/LIME_BERT.png" width="45%" />
+  <img src="img/LIME_BERT.png" width="60%" />
 </p>
 <div align="center">
 
