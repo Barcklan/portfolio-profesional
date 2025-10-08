@@ -58,7 +58,7 @@ Se desarrolló un sistema de scoring crediticio basado en redes neuronales profu
 
 <p align="center">
   <img src="img/DNN_Simple.png" width="45%" />
-  <img src="img/RESNET.png" width="45%" />
+  <img src="img/RESNET.png" width="40%" />
 </p>
 
 | Métricas  | Modelo DNN Simple | RESNET |
