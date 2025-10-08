@@ -54,11 +54,6 @@ Se analizó un modelo de **Random Forest** para predecir **enfermedades cardíac
 
 El análisis de un modelo de Random Forest para predecir enfermedades cardíacas presentó el siguiente resultado:
 
-<p align="center">
-  <img src="img/Metricas.png" width="45.7%" />
-  <img src="img/F1-Score.png" width="45%" />
-</p>
-
 <h3 align="center">Modelo Random Forest entrenado</h3>
 <h4 align="center">Métricas en entrenamiento: <b>accuracy: 1.00</b></h4>
 
