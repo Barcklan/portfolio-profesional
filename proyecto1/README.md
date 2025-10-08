@@ -5,7 +5,7 @@
 ---
 
 ## 🎯 Objetivo
-Diseñar, entrenar y evaluar un modelo de red neuronal profunda para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
+Diseñar, entrenar y evaluar un modelo de red neuronal profunda (DNN) para predecir la probabilidad de impago de clientes bancarios, utilizando un conjunto de datos realista.  
 El modelo debe ser explicable, eficiente y presentar resultados interpretables para su uso en contextos financieros.
 
 ---
@@ -50,3 +50,21 @@ Este proyecto busca construir un modelo **moderno, preciso y explicable**, basad
    ├─ 📂 reports/               ← Gráficos, visualizaciones, resultados
    └─ 📜 requirements.txt       ← Dependencias del proyecto
 ```
+--- 
+
+## Resultados Principales/Hallazgos
+
+Se desarrolló un sistema de scoring crediticio basado en redes neuronales profundas para predecir la probabilidad de impago de clientes bancarios, comenzando con un análisis exploratorio que identificó diferencias entre buenos y malos pagadores, especialmente en monto y duración del crédito. Tras preprocesar los datos y aplicar SMOTE para balancear clases, se entrenaron dos modelos: una DNN simple y una ResNet tabular. 
+
+<p align="center">
+  <img src="images/DNN_Simple.png" width="45%" />
+  <img src="images/RESNET.png" width="45%" />
+</p>
+
+| Métricas  | Modelo DNN Simple | RESNET |
+|-----------|-----------|-----------    |
+| `Accuracy`|  0.705    |  0.604        |
+|   `AUC`   |   0.780   |  0.640        |
+
+
+Tal como se ve en las Curvas ROC, la DNN simple mostró un desempeño superior, con accuracy de 70,5% y AUC de 0,78, generalizando bien y equilibrando la predicción entre clientes “good” y “bad”. En cambio, la ResNet obtuvo accuracy de 64% y AUC de 0,64, clasificando mejor a clientes “bad” pero con un riesgo elevado de falsos positivos. En conclusión, la DNN simple se posiciona como la opción más confiable y efectiva para decisiones de crédito, aunque aún puede mejorarse la predicción de clientes solventes y la interpretabilidad del modelo.
