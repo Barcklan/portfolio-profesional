@@ -57,7 +57,7 @@ Este proyecto busca construir un modelo **moderno, preciso y explicable**, basad
 Se desarrolló un sistema de scoring crediticio basado en redes neuronales profundas para predecir la probabilidad de impago de clientes bancarios, comenzando con un análisis exploratorio que identificó diferencias entre buenos y malos pagadores, especialmente en monto y duración del crédito. Tras preprocesar los datos y aplicar SMOTE para balancear clases, se entrenaron dos modelos: una DNN simple y una ResNet tabular. 
 
 <p align="center">
-  <img src="img/DNN_Simple.png" width="435%" />
+  <img src="img/DNN_Simple.png" width="43.5%" />
   <img src="img/RESNET.png" width="40%" />
 </p>
 
