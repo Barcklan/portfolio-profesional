@@ -52,11 +52,7 @@ Se analizó un modelo de **Random Forest** para predecir **enfermedades cardíac
 
 ## 📈 Resultados Principales/Hallazgos
 
-El análisis de un modelo de Random Forest para predecir enfermedades cardíacas utilizando herramientas de interpretabilidad como SHAP y LIME ha revelado que, aunque el modelo tiene una alta precisión general (88.6%), su lógica interna es defectuosa y potencialmente peligrosa. La interpretabilidad demostró que el modelo se apoya en variables clínicamente válidas y de peso, como los patrones de ECG durante el ejercicio, la angina y la frecuencia cardíaca máxima. Sin embargo, también se descubrió una falla crítica: el modelo interpreta de manera inconsistente y anómala la variable Colesterol, tratando los valores bajos como un factor de riesgo significativo y los altos como protectores.
-
-Esta inconsistencia, probablemente causada por errores de entrada de datos (valores de 0.0), llevó a predicciones incorrectas en casos específicos, generando falsos positivos a pesar de que el paciente no presentaba una enfermedad cardíaca. Este proyecto subraya que la precisión no es suficiente en áreas críticas como la salud. Sin interpretabilidad, no se podría auditar la lógica del modelo, identificar sus sesgos y vulnerabilidades, o comprender por qué falla en casos particulares, lo que demuestra que la transparencia y la responsabilidad son esenciales para la implementación segura y ética de la inteligencia artificial.
-
-A futuro, se planeará una mejora del modelo de Random Forest, enfocada en una depuración y validación exhaustiva de los datos de entrada, así como en la optimización de los hiperparámetros y la evaluación comparativa con otros algoritmos como XGBoost o modelos basados en redes neuronales. Además, se buscará incorporar un proceso continuo de monitorización del rendimiento y reentrenamiento con nuevos datos clínicos, garantizando así un modelo más robusto, confiable y alineado con los principios de la medicina basada en evidencia.
+El análisis de un modelo de Random Forest para predecir enfermedades cardíacas presentó el siguiente resultado:
 
 <p align="center">
   <img src="img/Metricas.png" width="45.7%" />
@@ -91,6 +87,38 @@ A futuro, se planeará una mejora del modelo de Random Forest, enfocada en una d
   </tbody>
 </table>
 
+arrojando la siguiente matriz de confusión:
+
+<h3 align="center">🔹 Matriz de confusión — Modelo Random Forest</h3>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Real \ Predicción</th>
+      <th>0 (Sano)</th>
+      <th>1 (Enfermo)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>0 (Sano)</b></td>
+      <td align="center">0.705</td>
+      <td align="center">0.640</td>
+    </tr>
+    <tr>
+      <td><b>1 (Enfermo)</b></td>
+      <td align="center">0.780</td>
+      <td align="center">0.640</td>
+    </tr>
+  </tbody>
+</table>
+
+
+utilizando herramientas de interpretabilidad como SHAP y LIME ha revelado que, aunque el modelo tiene una alta precisión general (88.6%), su lógica interna es defectuosa y potencialmente peligrosa. La interpretabilidad demostró que el modelo se apoya en variables clínicamente válidas y de peso, como los patrones de ECG durante el ejercicio, la angina y la frecuencia cardíaca máxima. Sin embargo, también se descubrió una falla crítica: el modelo interpreta de manera inconsistente y anómala la variable Colesterol, tratando los valores bajos como un factor de riesgo significativo y los altos como protectores.
+
+Esta inconsistencia, probablemente causada por errores de entrada de datos (valores de 0.0), llevó a predicciones incorrectas en casos específicos, generando falsos positivos a pesar de que el paciente no presentaba una enfermedad cardíaca. Este proyecto subraya que la precisión no es suficiente en áreas críticas como la salud. Sin interpretabilidad, no se podría auditar la lógica del modelo, identificar sus sesgos y vulnerabilidades, o comprender por qué falla en casos particulares, lo que demuestra que la transparencia y la responsabilidad son esenciales para la implementación segura y ética de la inteligencia artificial.
+
+A futuro, se planeará una mejora del modelo de Random Forest, enfocada en una depuración y validación exhaustiva de los datos de entrada, así como en la optimización de los hiperparámetros y la evaluación comparativa con otros algoritmos como XGBoost o modelos basados en redes neuronales. Además, se buscará incorporar un proceso continuo de monitorización del rendimiento y reentrenamiento con nuevos datos clínicos, garantizando así un modelo más robusto, confiable y alineado con los principios de la medicina basada en evidencia.
 
 
 Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisión, recall, F1 y accuracy), lo que sugiere que el dataset es pequeño y fácilmente separable, con posible sobreajuste. No se observa ventaja entre ambos modelos: Naive Bayes es más rápido y eficiente para tareas simples, mientras que BERT ofrece mayor robustez para escenarios más complejos o con mayor volumen de datos.
