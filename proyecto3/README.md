@@ -60,6 +60,40 @@ El análisis de un modelo de Random Forest para predecir enfermedades cardíacas
 </p>
 
 <h3 align="center">🩺 Modelo Random Forest entrenado</h3>
+<h4 align="center">Métricas en entrenamiento: <b>accuracy: 1.00</b></h4>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Clase del paciente</th>
+      <th>Precisión</th>
+      <th>Recall</th>
+      <th>F1-Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sano (0)</td>
+      <td align="right">1.00</td>
+      <td align="right">1.00</td>
+      <td align="right">1.00</td>
+    </tr>
+    <tr>
+      <td>Enfermo (1)</td>
+      <td align="right">1.00</td>
+      <td align="right">1.00</td>
+      <td align="right">1.00</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p align="center">
+  <img src="img/Metricas.png" width="45.7%" />
+  <img src="img/F1-Score.png" width="45%" />
+</p>
+
+<h3 align="center">🩺 Modelo Random Forest entrenado</h3>
 <h4 align="center">Métricas en prueba: <b>accuracy: 0.89</b></h4>
 
 <table align="center">
@@ -112,6 +146,11 @@ arrojando la siguiente matriz de confusión:
     </tr>
   </tbody>
 </table>
+
+Se tuvo que, el modelo Random Forest muestra un excelente desempeño, con un accuracy del 89% en prueba, aunque evidencia sobreajuste por su rendimiento perfecto en entrenamiento (100%). Detecta eficazmente a los pacientes con enfermedad (recall = 0.91), pero aún comete algunos errores: 12 falsos positivos y 9 falsos negativos, siendo estos últimos clínicamente más críticos. En general, el modelo generaliza bien, pero requiere ajuste de hiperparámetros para reducir el sobreajuste y mejorar la detección de casos verdaderamente enfermos.
+
+
+
 
 
 utilizando herramientas de interpretabilidad como SHAP y LIME ha revelado que, aunque el modelo tiene una alta precisión general (88.6%), su lógica interna es defectuosa y potencialmente peligrosa. La interpretabilidad demostró que el modelo se apoya en variables clínicamente válidas y de peso, como los patrones de ECG durante el ejercicio, la angina y la frecuencia cardíaca máxima. Sin embargo, también se descubrió una falla crítica: el modelo interpreta de manera inconsistente y anómala la variable Colesterol, tratando los valores bajos como un factor de riesgo significativo y los altos como protectores.
