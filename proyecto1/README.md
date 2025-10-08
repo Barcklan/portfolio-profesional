@@ -61,10 +61,13 @@ Se desarrolló un sistema de scoring crediticio basado en redes neuronales profu
   <img src="img/RESNET.png" width="40%" />
 </p>
 
+<div align="center">
+  
 | Métricas  | Modelo DNN Simple | RESNET |
 |-----------|-----------|-----------    |
 | `Accuracy`|  0.705    |  0.604        |
 |   `AUC`   |   0.780   |  0.640        |
 
+</div>
 
 Tal como se ve en las Curvas ROC, la DNN simple mostró un desempeño superior, con accuracy de 70,5% y AUC de 0,78, generalizando bien y equilibrando la predicción entre clientes “good” y “bad”. En cambio, la ResNet obtuvo accuracy de 64% y AUC de 0,64, clasificando mejor a clientes “bad” pero con un riesgo elevado de falsos positivos. En conclusión, la DNN simple se posiciona como la opción más confiable y efectiva para decisiones de crédito, aunque aún puede mejorarse la predicción de clientes solventes y la interpretabilidad del modelo.
