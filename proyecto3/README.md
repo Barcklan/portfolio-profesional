@@ -63,15 +63,33 @@ A futuro, se planeará una mejora del modelo de Random Forest, enfocada en una d
   <img src="img/F1-Score.png" width="45%" />
 </p>
 
-<div align="center">
+<h3 align="center">🩺 Modelo Random Forest entrenado</h3>
+<h4 align="center">Métricas en prueba: <b>accuracy: 0.89</b></h4>
 
- <H3> Modelo Random Forest entrenado </H3>
-  <H4> Métricas en prueba: <b>accuracy: 0.89</b> </H4>
-| Clase del paciente | Precisión | Recall | F1-Score |
-|--------------------|------------|---------|-----------|
-| Sano (0)           | 0.89       | 0.85    | 0.87      |
-| Enfermo (1)        | 0.89       | 0.91    | 0.90      |
-</div>
+<table align="center">
+  <thead>
+    <tr>
+      <th>Clase del paciente</th>
+      <th>Precisión</th>
+      <th>Recall</th>
+      <th>F1-Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sano (0)</td>
+      <td align="right">0.89</td>
+      <td align="right">0.85</td>
+      <td align="right">0.87</td>
+    </tr>
+    <tr>
+      <td>Enfermo (1)</td>
+      <td align="right">0.89</td>
+      <td align="right">0.91</td>
+      <td align="right">0.90</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
