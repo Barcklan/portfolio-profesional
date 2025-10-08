@@ -91,7 +91,7 @@ Se implementaron y compararon dos enfoques: Naive Bayes con TF-IDF y BERT en esp
 
 Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisión, recall, F1 y accuracy), lo que sugiere que el dataset es pequeño y fácilmente separable, con posible sobreajuste. No se observa ventaja entre ambos modelos: Naive Bayes es más rápido y eficiente para tareas simples, mientras que BERT ofrece mayor robustez para escenarios más complejos o con mayor volumen de datos.
 
-### Explicabilidad con LIME
+### Explicabilidad con LIME:
 
 Dado que ambos modelos —Naive Bayes y BERT— alcanzaron un rendimiento perfecto (1.00 en accuracy, precision, recall y F1-score), resulta fundamental analizar cómo y por qué llegan a sus predicciones. La interpretabilidad mediante LIME (Local Interpretable Model-agnostic Explanations) permite comprender qué palabras o patrones lingüísticos influyen más en la clasificación de la gravedad clínica del paciente (leve, moderado o severo).
 
