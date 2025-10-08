@@ -67,12 +67,10 @@ A futuro, se planeará una mejora del modelo de Random Forest, enfocada en una d
 
  <H3> Modelo Random Forest entrenado </H3>
   <H4> Métricas en prueba: <b>accuracy: 0.89</b> </H4>
-|Estado Cardíaco Paciente| `precision` | `recall` | `F1-Score` |
-|-----------|-----------|-----------|-----------|
-|Sano (=0)| 0.89 | 0.85 | 0.87 |
-|Enfermo(=1)| 0.89 | 0.91 | 0.90 |
-
-
+| Clase del paciente | Precisión | Recall | F1-Score |
+|--------------------|------------|---------|-----------|
+| Sano (0)           | 0.89       | 0.85    | 0.87      |
+| Enfermo (1)        | 0.89       | 0.91    | 0.90      |
 </div>
 
 
