@@ -91,6 +91,21 @@ Se implementaron y compararon dos enfoques: Naive Bayes con TF-IDF y BERT en esp
 
 Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisión, recall, F1 y accuracy), lo que sugiere que el dataset es pequeño y fácilmente separable, con posible sobreajuste. No se observa ventaja entre ambos modelos: Naive Bayes es más rápido y eficiente para tareas simples, mientras que BERT ofrece mayor robustez para escenarios más complejos o con mayor volumen de datos.
 
+### Explicabilidad con LIME
+
+#### Bayes Naive
+
+<p align="center">
+  <img src="img/LIME_BN.png" width="45%" />
+</p>
+<div align="center">
+
+#### BERT
+
+<p align="center">
+  <img src="img/LIME_BERT.png" width="45%" />
+</p>
+<div align="center">
 
 
 ## 📄 Conclusiones
