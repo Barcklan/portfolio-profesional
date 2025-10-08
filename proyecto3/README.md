@@ -41,10 +41,10 @@ Se analizó un modelo de **Random Forest** para predecir **enfermedades cardíac
 
 ```bash
  proyecto3/               
-   ├─ README.md              ← Carpeta del Proyecto 3
-   ├─ data/                 
-   ├─ notebooks/             
-   ├─ scripts/               
-   ├─ reports/              
-   └─ requirements.txt       
+   ├─ 📜 README.md              ← Carpeta del Proyecto 3
+   ├─ 📂 data/                 
+   ├─ 📔 notebooks/             
+   ├─ 📂 scripts/               
+   ├─ 📂 reports/              
+   └─ 📜 requirements.txt       
   ```
