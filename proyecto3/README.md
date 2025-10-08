@@ -87,12 +87,6 @@ El análisis de un modelo de Random Forest para predecir enfermedades cardíacas
   </tbody>
 </table>
 
-
-<p align="center">
-  <img src="img/Metricas.png" width="45.7%" />
-  <img src="img/F1-Score.png" width="45%" />
-</p>
-
 <h3 align="center">Modelo Random Forest entrenado</h3>
 <h4 align="center">Métricas en prueba: <b>accuracy: 0.89</b></h4>
 
@@ -121,7 +115,7 @@ El análisis de un modelo de Random Forest para predecir enfermedades cardíacas
   </tbody>
 </table>
 
-arrojando la siguiente matriz de confusión:
+y arrojó la siguiente matriz de confusión:
 
 <h3 align="center">🔹 Matriz de confusión — Modelo Random Forest</h3>
 
@@ -147,49 +141,53 @@ arrojando la siguiente matriz de confusión:
   </tbody>
 </table>
 
-Se tuvo que, el modelo Random Forest muestra un excelente desempeño, con un accuracy del 89% en prueba, aunque evidencia sobreajuste por su rendimiento perfecto en entrenamiento (100%). Detecta eficazmente a los pacientes con enfermedad (recall = 0.91), pero aún comete algunos errores: 12 falsos positivos y 9 falsos negativos, siendo estos últimos clínicamente más críticos. En general, el modelo generaliza bien, pero requiere ajuste de hiperparámetros para reducir el sobreajuste y mejorar la detección de casos verdaderamente enfermos.
+Se tuvo que, el modelo Random Forest mostró un excelente desempeño, con un accuracy del 89% en prueba, aunque evidenció sobreajuste por su rendimiento perfecto en entrenamiento (100%). Detectó eficazmente a los pacientes con enfermedad (recall = 0.91), pero aún cometió algunos errores: 12 falsos positivos y 9 falsos negativos, siendo estos últimos clínicamente más críticos. En general, el modelo generalizó bien, pero requiere ajuste de hiperparámetros para reducir el sobreajuste y mejorar la detección de casos verdaderamente enfermos.
 
+Con las siguientes herramientas de interpretabilidad se reveló que, aunque el modelo tiene una alta precisión general (88.6%), su lógica interna es defectuosa y potencialmente peligrosa.
 
+### Uso de herramientas de interpretabilidad: SHAP
 
-
-
-utilizando herramientas de interpretabilidad como SHAP y LIME ha revelado que, aunque el modelo tiene una alta precisión general (88.6%), su lógica interna es defectuosa y potencialmente peligrosa. La interpretabilidad demostró que el modelo se apoya en variables clínicamente válidas y de peso, como los patrones de ECG durante el ejercicio, la angina y la frecuencia cardíaca máxima. Sin embargo, también se descubrió una falla crítica: el modelo interpreta de manera inconsistente y anómala la variable Colesterol, tratando los valores bajos como un factor de riesgo significativo y los altos como protectores.
-
-Esta inconsistencia, probablemente causada por errores de entrada de datos (valores de 0.0), llevó a predicciones incorrectas en casos específicos, generando falsos positivos a pesar de que el paciente no presentaba una enfermedad cardíaca. Este proyecto subraya que la precisión no es suficiente en áreas críticas como la salud. Sin interpretabilidad, no se podría auditar la lógica del modelo, identificar sus sesgos y vulnerabilidades, o comprender por qué falla en casos particulares, lo que demuestra que la transparencia y la responsabilidad son esenciales para la implementación segura y ética de la inteligencia artificial.
-
-A futuro, se planeará una mejora del modelo de Random Forest, enfocada en una depuración y validación exhaustiva de los datos de entrada, así como en la optimización de los hiperparámetros y la evaluación comparativa con otros algoritmos como XGBoost o modelos basados en redes neuronales. Además, se buscará incorporar un proceso continuo de monitorización del rendimiento y reentrenamiento con nuevos datos clínicos, garantizando así un modelo más robusto, confiable y alineado con los principios de la medicina basada en evidencia.
-
-
-Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisión, recall, F1 y accuracy), lo que sugiere que el dataset es pequeño y fácilmente separable, con posible sobreajuste. No se observa ventaja entre ambos modelos: Naive Bayes es más rápido y eficiente para tareas simples, mientras que BERT ofrece mayor robustez para escenarios más complejos o con mayor volumen de datos.
-
-### Explicabilidad con LIME:
-
-Dado que ambos modelos —Naive Bayes y BERT— alcanzaron un rendimiento perfecto (1.00 en accuracy, precision, recall y F1-score), resulta fundamental analizar cómo y por qué llegan a sus predicciones. La interpretabilidad mediante LIME (Local Interpretable Model-agnostic Explanations) permite comprender qué palabras o patrones lingüísticos influyen más en la clasificación de la gravedad clínica del paciente (leve, moderado o severo).
-
-A través de LIME, se busca verificar si las decisiones de los modelos son coherentes con el contexto médico, identificar posibles errores de interpretación semántica y garantizar que la alta precisión observada no oculte sesgos o sobreajuste hacia ciertas clases o términos clínicos.
+### Explicabilidad de un caso (paciente) que el modelo predijo que padecía de una enfermedad cardíaca pero que en realidad estaba sano
 
 <div align="center">
-  <H3> Naive Bayes </H3>
+  <H3> SHAP </H3>
 </div>
 <p align="center">
-  <img src="img/LIME_BN.png" width="60%" />
+  <img src="img/SHAP.png" width="60%" />
 </p>
 
-El modelo Naive Bayes clasificó el texto como “leve” con un 98% de probabilidad. LIME evidenció que palabras como complicaciones o severas, aunque sugieren mayor gravedad, fueron interpretadas por el modelo como asociadas a casos leves, descartando así las clases “moderado” y “severo”.
+El modelo predijo un 83% de probabilidad de enfermedad cardíaca para el paciente 50, aunque en realidad estaba sano (falso positivo). La predicción se vio influenciada principalmente por la ausencia de elevación del segmento ST, un valor anómalo de colesterol = 0, y la presencia de angina durante el ejercicio, factores que el modelo interpretó como señales de alto riesgo. Esto evidenció que el modelo era sensible a datos erróneos y podía generar predicciones incorrectas cuando existían valores atípicos o inconsistentes, destacando la necesidad de mejorar la calidad de los datos y ajustar la interpretación de variables críticas.
+
+### Uso de herramientas de interpretabilidad: LIME
 
 <div align="center">
-  <H3>BERT</H3> 
+  <H3> LIME </H3>
 </div>
 <p align="center">
-  <img src="img/LIME_BERT.png" width="80%" />
+  <img src="img/LIME.png" width="80%" />
 </p>
 
-El modelo BERT clasificó el texto como “severo” (52%) al identificar términos clave como dificultad respiratoria, hospitalización y requiere inmediata, asociados a alta gravedad. Aunque las clases “leve” y “moderado” tuvieron cierta probabilidad, las palabras clínicas reforzaron la decisión hacia “severo”.
+El modelo predijo erróneamente un 82% de probabilidad de enfermedad cardíaca para el paciente 50, quien en realidad estaba sano (falso positivo). Factores como la ausencia de elevación del segmento ST, la presencia de angina durante el ejercicio y un valor anómalo de colesterol = 0 influyeron decisivamente en la predicción. El análisis LIME evidenció que el modelo malinterpretó variables clínicas y valores anómalos, lo que destacó la necesidad de mejorar la calidad de los datos y ajustar la interpretación de factores críticos para evitar errores similares en el futuro.
+
+### Comparativa entre LIME Y SHAP en base a los resultados obtenidos
+
+Tanto SHAP como LIME proporcionaron interpretabilidad del modelo, pero con enfoques distintos. Ambos explican predicciones individuales, identifican las variables más influyentes (como ECG y angina) y presentan visualizaciones claras.
+
+Diferencias clave:
+	•	SHAP ofrece explicaciones locales y globales, es teóricamente consistente (valores de Shapley) y permite detectar patrones y contradicciones en todo el modelo.
+	•	LIME es estrictamente local, crea modelos simples alrededor de cada caso y depende de los datos cercanos para su precisión, sin ofrecer visión global.
+
+En conclusión, SHAP es más robusto y completo, mientras que LIME es útil para explicaciones rápidas de casos individuales; ambos son complementarios para entender y auditar el modelo.
 
 
 ## 📄 Conclusiones
 
-El proyecto demostró que las técnicas de NLP pueden clasificar eficazmente notas clínicas según la gravedad del paciente. Naive Bayes ofreció una línea base interpretable, mientras que BERT logró mayor comprensión semántica y precisión. El uso de LIME aportó transparencia al mostrar las palabras clave que influyen en las predicciones. Además, se destacó la necesidad de abordar sesgos, privacidad y supervisión médica, promoviendo un uso ético y responsable de la IA como herramienta de apoyo en la detección y priorización clínica.
+El modelo Random Forest mostró un alto rendimiento en prueba (accuracy 88.6%), apoyándose en variables clínicamente relevantes como ST_Slope, angina por ejercicio y Oldpeak. Sin embargo, su lógica presentó fallas críticas: fue sensible a datos erróneos (valores anómalos de colesterol) y cometió falsos positivos y negativos, ignorando en algunos casos señales clínicas importantes como angina o MaxHR.
 
+Vimos casos puntuales, como el del paciente X, en donde analizamos la explicabilidad utilizando SHAP y LIME. En este caso, el modelo lo predijo como enfermo, aunque en realidad estaba sano, permitiéndonos identificar un falso positivo y las variables más influyentes que llevaron a esa predicción errónea.
 
-#### 🔗 [Ver análisis completo en el Notebook (.ipynb) »](./notebooks/CNCEE_NLP_clean.ipynb)
+Esto evidencia que alta precisión no garantiza confiabilidad y que la interpretabilidad es esencial para auditar la lógica del modelo, aumentar la confianza de los médicos e identificar sesgos. Para conocer los detalles completos de este análisis y complementarlo con los resultados vistos aquí, se recomienda revisar el notebook .ipynb, donde aparece el análisis detallado.
+
+Considerar que, a futuro, se planeará una mejora del modelo, enfocada en depuración y validación exhaustiva de los datos, optimización de hiperparámetros, y evaluación comparativa con algoritmos como XGBoost o redes neuronales. Además, se implementará un proceso continuo de monitorización y reentrenamiento con nuevos datos clínicos, garantizando un modelo más robusto, confiable y alineado con la medicina basada en evidencia.
+
+#### 🔗 [Ver análisis completo en el Notebook (.ipynb) »](./notebooks/IMP_LIME_y_SHAP.ipynb)
