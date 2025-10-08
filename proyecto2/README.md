@@ -66,7 +66,7 @@ Se implementaron y compararon dos enfoques: Naive Bayes con TF-IDF y BERT en esp
 
 <div align="center">
 
- <H3> Bayes Naives </H3>
+ <H3> Naive Bayes </H3>
   
 | Gravedad Clínica | `accuracy`  | `precision` | `recall` | `F1-Score` |
 |-----------|-----------|-----------|-----------|-----------|
@@ -93,12 +93,18 @@ Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisi�
 
 ### Explicabilidad con LIME
 
+Dado que ambos modelos —Naive Bayes y BERT— alcanzaron un rendimiento perfecto (1.00 en accuracy, precision, recall y F1-score), resulta fundamental analizar cómo y por qué llegan a sus predicciones. La interpretabilidad mediante LIME (Local Interpretable Model-agnostic Explanations) permite comprender qué palabras o patrones lingüísticos influyen más en la clasificación de la gravedad clínica del paciente (leve, moderado o severo).
+
+A través de LIME, se busca verificar si las decisiones de los modelos son coherentes con el contexto médico, identificar posibles errores de interpretación semántica y garantizar que la alta precisión observada no oculte sesgos o sobreajuste hacia ciertas clases o términos clínicos.
+
 <div align="center">
-  <H3> Bayes Naives </H3>
+  <H3> Naive Bayes </H3>
 </div>
 <p align="center">
   <img src="img/LIME_BN.png" width="60%" />
 </p>
+
+El modelo Naive Bayes clasificó el texto como “leve” con un 98% de probabilidad. LIME evidenció que palabras como complicaciones o severas, aunque sugieren mayor gravedad, fueron interpretadas por el modelo como asociadas a casos leves, descartando así las clases “moderado” y “severo”.
 
 <div align="center">
   <H3>BERT</H3> 
@@ -107,16 +113,12 @@ Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisi�
   <img src="img/LIME_BERT.png" width="80%" />
 </p>
 
+El modelo BERT clasificó el texto como “severo” (52%) al identificar términos clave como dificultad respiratoria, hospitalización y requiere inmediata, asociados a alta gravedad. Aunque las clases “leve” y “moderado” tuvieron cierta probabilidad, las palabras clínicas reforzaron la decisión hacia “severo”.
 
 
 ## 📄 Conclusiones
 
-El sistema de scoring crediticio basado en redes neuronales profundas comparó una DNN simple y una ResNet tabular.
-
-La DNN obtuvo mejor desempeño (Accuracy ≈ 70%, AUC ≈ 0.78), mostrando buena capacidad de generalización y discriminación entre clientes buenos y malos, mientras que la ResNet fue menos precisa (Accuracy ≈ 64%, AUC ≈ 0.64) y generó más falsos positivos, lo que implica mayor riesgo financiero.
-
-Aunque la DNN es el modelo más confiable, presenta sesgo hacia la clase “Bad” y baja precisión en clientes “Good” (43%).
-Se recomienda optimizar hiperparámetros, mejorar embeddings, ajustar el umbral de decisión y aplicar técnicas de interpretabilidad (SHAP, LIME) para garantizar transparencia y confiabilidad.
+El proyecto demostró que las técnicas de NLP pueden clasificar eficazmente notas clínicas según la gravedad del paciente. Naive Bayes ofreció una línea base interpretable, mientras que BERT logró mayor comprensión semántica y precisión. El uso de LIME aportó transparencia al mostrar las palabras clave que influyen en las predicciones. Además, se destacó la necesidad de abordar sesgos, privacidad y supervisión médica, promoviendo un uso ético y responsable de la IA como herramienta de apoyo en la detección y priorización clínica.
 
 
-#### 🔗 [Ver análisis completo en el Notebook (.ipynb) »](./notebooks/SISC_DNN.ipynb)
+#### 🔗 [Ver análisis completo en el Notebook (.ipynb) »](./notebooks/CNCEE_NLP.ipynb)
