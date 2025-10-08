@@ -103,7 +103,7 @@ Tanto Naive Bayes como BERT alcanzaron un rendimiento perfecto (100% en precisi√
 #### BERT
 
 <p align="center">
-  <img src="img/LIME_BERT.png" width="60%" />
+  <img src="img/LIME_BERT.png" width="80%" />
 </p>
 <div align="center">
 
