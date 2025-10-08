@@ -121,4 +121,4 @@ El modelo BERT clasificó el texto como “severo” (52%) al identificar térmi
 El proyecto demostró que las técnicas de NLP pueden clasificar eficazmente notas clínicas según la gravedad del paciente. Naive Bayes ofreció una línea base interpretable, mientras que BERT logró mayor comprensión semántica y precisión. El uso de LIME aportó transparencia al mostrar las palabras clave que influyen en las predicciones. Además, se destacó la necesidad de abordar sesgos, privacidad y supervisión médica, promoviendo un uso ético y responsable de la IA como herramienta de apoyo en la detección y priorización clínica.
 
 
-#### 🔗 [Ver análisis completo en el Notebook (.ipynb) »](./notebooks/CNCEE_NLP.ipynb)
+#### 🔗 [Ver análisis completo en el Notebook (.ipynb) »](./notebooks/CNCEE_NLP_clean.ipynb)
