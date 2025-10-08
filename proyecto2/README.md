@@ -66,7 +66,7 @@ Se implementaron y compararon dos enfoques: Naive Bayes con TF-IDF y BERT en esp
 
 <div align="center">
 
- <H2> Bayes Naives </H2>
+ <H3> Bayes Naives </H3>
   
 | Gravedad Clínica | `accuracy`  | `precision` | `recall` | `F1-Score` |
 |-----------|-----------|-----------|-----------|-----------|
@@ -78,7 +78,7 @@ Se implementaron y compararon dos enfoques: Naive Bayes con TF-IDF y BERT en esp
 
 <div align="center">
 
-<H2>BERT</H2> 
+<H3>BERT</H3> 
  
 | Gravedad Clínica | `accuracy`  | `precision` | `recall` | `F1-Score` |
 |-----------|-----------|-----------|-----------|-----------|
