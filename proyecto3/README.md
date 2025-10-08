@@ -142,7 +142,7 @@ Con las siguientes herramientas de interpretabilidad se reveló que, aunque el m
 
 ### Uso de herramientas de interpretabilidad: SHAP
 
-### Explicabilidad de un caso (paciente) que el modelo predijo que padecía de una enfermedad cardíaca pero que en realidad estaba sano
+### Explicabilidad del caso #50 (codificación del paciente) que el modelo predijo que padecía de una enfermedad cardíaca pero que en realidad estaba sano
 
 <div align="center">
   <H3> SHAP </H3>
@@ -154,6 +154,8 @@ Con las siguientes herramientas de interpretabilidad se reveló que, aunque el m
 El modelo predijo un 83% de probabilidad de enfermedad cardíaca para el paciente 50, aunque en realidad estaba sano (falso positivo). La predicción se vio influenciada principalmente por la ausencia de elevación del segmento ST, un valor anómalo de colesterol = 0, y la presencia de angina durante el ejercicio, factores que el modelo interpretó como señales de alto riesgo. Esto evidenció que el modelo era sensible a datos erróneos y podía generar predicciones incorrectas cuando existían valores atípicos o inconsistentes, destacando la necesidad de mejorar la calidad de los datos y ajustar la interpretación de variables críticas.
 
 ### Uso de herramientas de interpretabilidad: LIME
+
+### Explicabilidad del caso #50 (codificación del paciente) que el modelo predijo que padecía de una enfermedad cardíaca pero que en realidad estaba sano
 
 <div align="center">
   <H3> LIME </H3>
