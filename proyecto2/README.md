@@ -46,10 +46,10 @@ Se aplicaron técnicas de **interpretabilidad (LIME)** y evaluación ética sobr
 
 ```bash
  proyecto2/                 ← Carpeta del Proyecto 2
-   ├─ README.md
-   ├─ data/
-   ├─ notebooks/
-   ├─ scripts/
-   ├─ reports/
-   └─ requirements.txt
+   ├─ 📜 README.md
+   ├─ 📂 data/
+   ├─ 📔 notebooks/
+   ├─ 📂 scripts/
+   ├─ 📂 reports/
+   └─ 📜 requirements.txt
 ```
